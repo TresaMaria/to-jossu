@@ -5,7 +5,6 @@ import LandingSection from "@/components/LandingSection";
 import TimelineSection from "@/components/TimelineSection";
 import ReasonsSection from "@/components/ReasonsSection";
 import LoveLetterSection from "@/components/LoveLetterSection";
-import OpenWhenSad from "@/components/OpenWhenSad";
 import Image from "next/image";
 
 export default function Home() {
