@@ -133,118 +133,118 @@ export default function LoveLetterSection() {
                     </div>
 
 
-                    {/* Content Container - Strictly Centralized with Calculated Safe Padding */}
+                    {/* Content Container - Mobile Optimized */}
                     {/* Border insets: inset-8 (2rem/32px) mobile, inset-14 (3.5rem/56px) desktop */}
-                    {/* Padding MUST be LARGER: px-16 (4rem/64px) mobile, px-24 (6rem/96px) desktop for visible margin */}
-                    <div className="relative z-10 font-handwriting text-slate-800 leading-loose space-y-8 md:space-y-12 
-                                    pt-20 pb-16 px-16 
+                    {/* Padding: px-12 mobile (48px), px-24 desktop (96px) for proper margin */}
+                    <div className="relative z-10 font-handwriting text-slate-800 leading-relaxed md:leading-loose space-y-6 md:space-y-12 
+                                    pt-16 pb-12 px-12 
                                     md:pt-28 md:pb-24 md:px-24 
                                     w-full mx-auto text-left">
 
-                        <div className="mb-12">
-                            <p className="text-4xl md:text-6xl font-bold text-sky-900 mb-4 font-script">My Love,</p>
-                            <div className="h-1 w-24 bg-pink-300/50 rounded-full transform -rotate-1" />
+                        <div className="mb-8 md:mb-12">
+                            <p className="text-3xl md:text-6xl font-bold text-sky-900 mb-3 md:mb-4 font-script">My Love,</p>
+                            <div className="h-0.5 md:h-1 w-20 md:w-24 bg-pink-300/50 rounded-full transform -rotate-1" />
                         </div>
 
-                        <p className="text-xl md:text-2xl">
-                            If someone told 2020-me that my MEC life would lead to this, I would’ve laughed.
+                        <p className="text-lg md:text-2xl">
+                            If someone told 2020-me that my MEC life would lead to this, I would've laughed.
                             And yet here we are.
                         </p>
 
-                        <p className="text-lg md:text-xl pl-6 border-l-4 border-pink-200/50 italic text-slate-600">
-                            Somewhere between “just friends” and “why are you smiling at your phone like that,” you quietly became my favorite person.
+                        <p className="text-base md:text-xl pl-4 md:pl-6 border-l-2 md:border-l-4 border-pink-200/50 italic text-slate-600">
+                            Somewhere between "just friends" and "why are you smiling at your phone like that," you quietly became my favorite person.
                         </p>
 
-                        <p className="text-xl md:text-2xl">
-                            You slipped into my life so naturally that I don’t even remember the exact moment it changed — I just know that one day, you weren’t optional anymore. You were essential. <br />
-                            <span className="bg-pink-100/50 px-2 py-0.5 rounded-sm inline-block transform rotate-1 mt-2">You became my daily prayer.</span>
+                        <p className="text-lg md:text-2xl">
+                            You slipped into my life so naturally that I don't even remember the exact moment it changed — I just know that one day, you weren't optional anymore. You were essential. <br />
+                            <span className="bg-pink-100/50 px-2 py-0.5 rounded-sm inline-block transform rotate-1 mt-2 text-base md:text-xl">You became my daily prayer.</span>
                         </p>
 
-                        <p className="text-xl md:text-2xl">
+                        <p className="text-lg md:text-2xl">
                             You have this very annoying talent of living in my head rent-free.
                         </p>
 
-                        <div className="pl-6 space-y-3 text-lg md:text-xl text-slate-700 border-l-2 border-slate-200 ml-2">
-                            <p>You’ve seen me dramatic.</p>
-                            <p>You’ve seen me overthink.</p>
-                            <p>You’ve seen me pretend I’m not soft and My fake “I don’t care” attitude.</p>
+                        <div className="pl-4 md:pl-6 space-y-2 md:space-y-3 text-base md:text-xl text-slate-700 border-l-2 border-slate-200 ml-1 md:ml-2">
+                            <p>You've seen me dramatic.</p>
+                            <p>You've seen me overthink.</p>
+                            <p>You've seen me pretend I'm not soft and My fake "I don't care" attitude.</p>
                         </div>
 
-                        <p className="text-2xl md:text-4xl text-center font-script text-sky-800/80 py-6 transform -rotate-1">
+                        <p className="text-xl md:text-4xl text-center font-script text-sky-800/80 py-4 md:py-6 transform -rotate-1">
                             And instead of running away, you stayed.
                         </p>
 
-                        <p className="text-xl md:text-2xl">
+                        <p className="text-lg md:text-2xl">
                             You argue with me, but you also pull me closer.<br />
                             You annoy me, but you also kiss my forehead.<br />
                             You expose my fake anger in under five minutes.
                         </p>
 
-                        <p className="text-lg text-slate-500 italic text-right pr-6 md:pr-12">
-                            It’s unfair, honestly.
+                        <p className="text-base md:text-lg text-slate-500 italic text-right pr-4 md:pr-12">
+                            It's unfair, honestly.
                         </p>
 
-                        <p className="text-xl md:text-2xl">
+                        <p className="text-lg md:text-2xl">
                             Loving you feels like chaos and calm at the same time.<br />
                             Like laughing mid-fight.<br />
                             Like missing someone who is very much yours.<br />
                             Like counting days but never doubting the choice.
                         </p>
 
-                        <div className="py-8 border-t border-b double-border-slate-200 my-8 text-center space-y-3 relative">
-                            <Stars className="w-8 h-8 text-yellow-400 mx-auto mb-4 animate-pulse" />
-                            <p className="text-xl md:text-2xl">You’re not just my boyfriend.</p>
-                            <p className="text-xl md:text-2xl">You’re my comfort place.</p>
-                            <p className="text-2xl md:text-3xl font-bold text-sky-700 font-script">My favorite distraction.</p>
-                            <p className="text-xl md:text-2xl">My safe chaos.</p>
+                        <div className="py-6 md:py-8 border-t border-b double-border-slate-200 my-6 md:my-8 text-center space-y-2 md:space-y-3 relative">
+                            <Stars className="w-6 md:w-8 h-6 md:h-8 text-yellow-400 mx-auto mb-3 md:mb-4 animate-pulse" />
+                            <p className="text-lg md:text-2xl">You're not just my boyfriend.</p>
+                            <p className="text-lg md:text-2xl">You're my comfort place.</p>
+                            <p className="text-xl md:text-3xl font-bold text-sky-700 font-script">My favorite distraction.</p>
+                            <p className="text-lg md:text-2xl">My safe chaos.</p>
                         </div>
 
-                        <p className="text-xl md:text-2xl">
+                        <p className="text-lg md:text-2xl">
                             Distance has tried us.<br />
                             Timing has tested us.<br />
                             My mood swings have definitely tested you.
                         </p>
 
-                        <p className="text-4xl md:text-5xl font-script text-center text-rose-400 py-4 transform rotate-1">
+                        <p className="text-2xl md:text-5xl font-script text-center text-rose-400 py-3 md:py-4 transform rotate-1">
                             But you still choose me.
                         </p>
 
-                        <p className="text-xl md:text-2xl">
-                            And that’s the part that undoes me every time.
+                        <p className="text-lg md:text-2xl">
+                            And that's the part that undoes me every time.
                         </p>
 
-                        <p className="text-xl md:text-2xl">
-                            You’re not just the person I love.<br />
-                            You’re the person I want to tell everything to.<br />
+                        <p className="text-lg md:text-2xl">
+                            You're not just the person I love.<br />
+                            You're the person I want to tell everything to.<br />
                             The one I mentally run to when something funny happens.<br />
-                            The one I imagine next to me in rooms you’re not even in yet.
+                            The one I imagine next to me in rooms you're not even in yet.
                         </p>
 
-                        <p className="text-xl md:text-2xl pl-6 border-l-4 border-sky-200">
+                        <p className="text-lg md:text-2xl pl-4 md:pl-6 border-l-2 md:border-l-4 border-sky-200">
                             If love is dramatic, loud, soft, stubborn, and slightly unhinged —
-                            then I guess we’re doing it perfectly.
+                            then I guess we're doing it perfectly.
                         </p>
 
-                        <p className="text-xl md:text-2xl">
+                        <p className="text-lg md:text-2xl">
                             And if I had to do it all over again?<br />
-                            I’d still pick you.<br />
-                            Even knowing you’d steal my peace, my sleep, and my entire heart.<br />
-                            <span className="text-4xl md:text-5xl font-script text-rose-500 block mt-4">Always you.</span>
+                            I'd still pick you.<br />
+                            Even knowing you'd steal my peace, my sleep, and my entire heart.<br />
+                            <span className="text-3xl md:text-5xl font-script text-rose-500 block mt-3 md:mt-4">Always you.</span>
                         </p>
 
                         {/* Signature Ending - With Extra Space at Bottom */}
-                        <div className="pt-24 pb-12 text-right relative">
-                            <p className="text-3xl text-slate-600 mb-6 font-handwriting">Always yours,</p>
+                        <div className="pt-16 md:pt-24 pb-8 md:pb-12 text-right relative">
+                            <p className="text-2xl md:text-3xl text-slate-600 mb-4 md:mb-6 font-handwriting">Always yours,</p>
                             <div className="inline-block relative transform -rotate-6">
-                                <p className="text-7xl md:text-8xl text-sky-800 font-script z-10 relative">
+                                <p className="text-5xl md:text-8xl text-sky-800 font-script z-10 relative">
                                     Tresa
                                 </p>
                                 {/* Scribble underline under signature */}
-                                <svg className="absolute -bottom-6 left-0 w-[120%] -ml-[10%] h-12 text-sky-200/60" viewBox="0 0 100 10" preserveAspectRatio="none">
+                                <svg className="absolute -bottom-4 md:-bottom-6 left-0 w-[120%] -ml-[10%] h-8 md:h-12 text-sky-200/60" viewBox="0 0 100 10" preserveAspectRatio="none">
                                     <path d="M0,5 Q50,15 100,5" fill="none" stroke="currentColor" strokeWidth="3" />
                                 </svg>
                             </div>
-                            <p className="text-sm md:text-base text-slate-400 mt-8 font-sans tracking-[0.2em] uppercase">(whether you like it or not) 🤍</p>
+                            <p className="text-xs md:text-base text-slate-400 mt-6 md:mt-8 font-sans tracking-[0.15em] md:tracking-[0.2em] uppercase">(whether you like it or not) 🤍</p>
                         </div>
                     </div>
                 </motion.div>

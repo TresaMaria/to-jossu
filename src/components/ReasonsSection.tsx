@@ -113,7 +113,7 @@ export default function ReasonsSection() {
                                 }}
                                 transition={{ duration: 0.5, ease: "easeInOut" }}
                                 className={cn(
-                                    "absolute w-[300px] md:w-[450px] aspect-square bg-[#fffdf5] rounded-sm p-8 md:p-12 shadow-2xl flex flex-col justify-center items-center text-center cursor-pointer border border-sky-100",
+                                    "absolute w-[280px] md:w-[450px] aspect-square bg-[#fffdf5] rounded-sm p-6 md:p-12 shadow-2xl flex flex-col justify-center items-center text-center cursor-pointer border border-sky-100",
                                     style.isActive ? "cursor-default ring-4 ring-sky-100/20" : "hover:brightness-95"
                                 )}
                                 onClick={() => {
@@ -122,13 +122,13 @@ export default function ReasonsSection() {
                                 }}
                             >
                                 {/* Card Content */}
-                                <Quote className="w-10 h-10 text-sky-200 mb-6 mx-auto opacity-50" />
+                                <Quote className="w-8 md:w-10 h-8 md:h-10 text-sky-200 mb-4 md:mb-6 mx-auto opacity-50" />
 
-                                <h3 className="font-handwriting text-5xl text-sky-900/10 absolute top-4 left-6">
+                                <h3 className="font-handwriting text-4xl md:text-5xl text-sky-900/10 absolute top-3 md:top-4 left-4 md:left-6">
                                     {String(index + 1).padStart(2, '0')}
                                 </h3>
 
-                                <p className="font-handwriting text-2xl md:text-3xl text-slate-800 leading-snug">
+                                <p className="font-handwriting text-xl md:text-3xl text-slate-800 leading-snug">
                                     {reason}
                                 </p>
 
